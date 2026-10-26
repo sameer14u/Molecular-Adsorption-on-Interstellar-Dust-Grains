@@ -1,0 +1,191 @@
+[
+ {
+  "id": "V1",
+  "desc": "Model A: brute-force 2^M enumeration vs C(M,N)  (M=14, all N)",
+  "dev": 0.0,
+  "tol": 0.0,
+  "ok": true
+ },
+ {
+  "id": "V2",
+  "desc": "Model B: enumerated Omega(N,Q) vs C(M,N)C(Q+gN-1,Q)  (M=4, g=1, Q<=30)",
+  "dev": 0.0,
+  "tol": 0.0,
+  "ok": true
+ },
+ {
+  "id": "V3a",
+  "desc": "canonical Z_N: brute-force sum vs C(M,N)e^(b N eps) z_v^N  (M=4, g=1)",
+  "dev": 1.1546319456101628e-14,
+  "tol": 1e-08,
+  "ok": true
+ },
+ {
+  "id": "V3b",
+  "desc": "grand Xi=(1+lambda)^M and P(N): brute force vs closed form  (M=4, g=1)",
+  "dev": 3.1086244689504383e-15,
+  "tol": 1e-08,
+  "ok": true
+ },
+ {
+  "id": "V2",
+  "desc": "Model B: enumerated Omega(N,Q) vs C(M,N)C(Q+gN-1,Q)  (M=3, g=2, Q<=14)",
+  "dev": 0.0,
+  "tol": 0.0,
+  "ok": true
+ },
+ {
+  "id": "V3a",
+  "desc": "canonical Z_N: brute-force sum vs C(M,N)e^(b N eps) z_v^N  (M=3, g=2)",
+  "dev": 1.1546319456101628e-14,
+  "tol": 1e-08,
+  "ok": true
+ },
+ {
+  "id": "V3b",
+  "desc": "grand Xi=(1+lambda)^M and P(N): brute force vs closed form  (M=3, g=2)",
+  "dev": 9.992007221626409e-16,
+  "tol": 1e-08,
+  "ok": true
+ },
+ {
+  "id": "V2",
+  "desc": "Model B: enumerated Omega(N,Q) vs C(M,N)C(Q+gN-1,Q)  (M=3, g=3, Q<=8)",
+  "dev": 0.0,
+  "tol": 0.0,
+  "ok": true
+ },
+ {
+  "id": "V3a",
+  "desc": "canonical Z_N: brute-force sum vs C(M,N)e^(b N eps) z_v^N  (M=3, g=3)",
+  "dev": 2.829561029926708e-10,
+  "tol": 1e-08,
+  "ok": true
+ },
+ {
+  "id": "V3b",
+  "desc": "grand Xi=(1+lambda)^M and P(N): brute force vs closed form  (M=3, g=3)",
+  "dev": 2.829579903718127e-10,
+  "tol": 1e-08,
+  "ok": true
+ },
+ {
+  "id": "V4a",
+  "desc": "Stirling: 1/kT = dS/dE|_N  analytic vs numerical derivative",
+  "dev": 1.707971841735656e-08,
+  "tol": 1e-07,
+  "ok": true
+ },
+ {
+  "id": "V4b",
+  "desc": "Stirling: -mu/kT = dS/dN|_E  analytic vs numerical derivative",
+  "dev": 1.735493526666687e-09,
+  "tol": 1e-07,
+  "ok": true
+ },
+ {
+  "id": "V5a",
+  "desc": "canonical <Q> at backward-difference T equals Q*G/(G-1), G=gN",
+  "dev": 4.440892098500626e-16,
+  "tol": 1e-12,
+  "ok": true
+ },
+ {
+  "id": "V5b",
+  "desc": "canonical <Q> at forward-difference T equals G(Q+1)/(G-1)",
+  "dev": 4.440892098500626e-16,
+  "tol": 1e-12,
+  "ok": true
+ },
+ {
+  "id": "V5c",
+  "desc": "Model A: <N>_GC = M N/(M+1) (backward) and M(N+1)/(M+1) (forward), exact",
+  "dev": 2.220446049250313e-16,
+  "tol": 1e-12,
+  "ok": true
+ },
+ {
+  "id": "V5d",
+  "desc": "Model B: backward/forward matching bracket N:  <N>_back < N < <N>_fwd  (M=400..1e5)",
+  "dev": 0.0,
+  "tol": 0.0,
+  "ok": true
+ },
+ {
+  "id": "V6a",
+  "desc": "Model B: Cov(E,N) numerical Hessian vs closed form M th(1-th) u",
+  "dev": 2.0959338076220746e-07,
+  "tol": 1e-06,
+  "ok": true
+ },
+ {
+  "id": "V6e",
+  "desc": "Model B: det Cov = Var E Var N - Cov^2 equals M^2 th^2(1-th) sig_h^2 (algebra)",
+  "dev": 2.6145752229922437e-13,
+  "tol": 1e-09,
+  "ok": true
+ },
+ {
+  "id": "V6b",
+  "desc": "Model B: Var(N) numerical vs M th (1-th)",
+  "dev": 3.349631538807074e-08,
+  "tol": 1e-05,
+  "ok": true
+ },
+ {
+  "id": "V6c",
+  "desc": "Model B: Var(E) numerical vs closed form",
+  "dev": 1.0686485374389321e-07,
+  "tol": 1e-05,
+  "ok": true
+ },
+ {
+  "id": "V6d",
+  "desc": "Model A: det Cov(E,N) = 0 (E and N perfectly locked)",
+  "dev": 0.0,
+  "tol": 1e-14,
+  "ok": true
+ },
+ {
+  "id": "V7a",
+  "desc": "GC: sum_N P(N) = 1, <N>, Var N from exact distribution vs formulas",
+  "dev": 3.302536022431468e-11,
+  "tol": 1e-10,
+  "ok": true
+ },
+ {
+  "id": "V7b",
+  "desc": "canonical: <Q> and Var Q from exact P(Q) vs g N/(e^b-1), gN e^b/(e^b-1)^2",
+  "dev": 2.6645352591003757e-15,
+  "tol": 1e-09,
+  "ok": true
+ },
+ {
+  "id": "V8a",
+  "desc": "S_can - k ln(Omega) = (1/2) ln(2 pi sigma_Q^2) + O(1/N)   (M=1e6)",
+  "dev": 9.350682752540251e-07,
+  "tol": 0.001,
+  "ok": true
+ },
+ {
+  "id": "V8b",
+  "desc": "S_GC - k ln(Omega) = ln 2pi + (1/2) ln det Cov(N,Q) + O(1/N)   (M=1e6)",
+  "dev": 1.251843322336299e-06,
+  "tol": 0.001,
+  "ok": true
+ },
+ {
+  "id": "V9a",
+  "desc": "central matching: slope d ln|<Q>/Q-1| / d ln M -> -1 (largest six M)",
+  "dev": 5.041254136362028e-08,
+  "tol": 0.02,
+  "ok": true
+ },
+ {
+  "id": "V9b",
+  "desc": "central matching: slope d ln|<N>/N-1| / d ln M -> -1 (largest six M)",
+  "dev": 0.0024558137079859765,
+  "tol": 0.05,
+  "ok": true
+ }
+]

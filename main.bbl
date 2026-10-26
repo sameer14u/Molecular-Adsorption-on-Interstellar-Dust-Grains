@@ -1,0 +1,84 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Mathis et~al.(1977)Mathis, Rumpl, and Nordsieck]{mathis1977}
+J.~S. Mathis, W.~Rumpl, and K.~H. Nordsieck.
+\newblock The size distribution of interstellar grains.
+\newblock \emph{The Astrophysical Journal}, 217:\penalty0 425--433, 1977.
+
+\bibitem[Draine(2011)]{draine2011}
+Bruce~T. Draine.
+\newblock \emph{Physics of the Interstellar and Intergalactic Medium}.
+\newblock Princeton University Press, Princeton, 2011.
+
+\bibitem[Boogert et~al.(2015)Boogert, Gerakines, and Whittet]{boogert2015}
+A.~C.~Adwin Boogert, Perry~A. Gerakines, and Douglas C.~B. Whittet.
+\newblock Observations of the icy universe.
+\newblock \emph{Annual Review of Astronomy and Astrophysics}, 53:\penalty0
+  541--581, 2015.
+\newblock arXiv:1501.05317.
+
+\bibitem[Hollenbach and Salpeter(1971)]{hollenbach1971}
+David Hollenbach and Edwin~E. Salpeter.
+\newblock Surface recombination of hydrogen molecules.
+\newblock \emph{The Astrophysical Journal}, 163:\penalty0 155--164, 1971.
+
+\bibitem[Hasegawa et~al.(1992)Hasegawa, Herbst, and Leung]{hasegawa1992}
+Tatsuhiko~I. Hasegawa, Eric Herbst, and Chun~Ming Leung.
+\newblock Models of gas-grain chemistry in dense interstellar clouds with
+  complex organic molecules.
+\newblock \emph{The Astrophysical Journal Supplement Series}, 82:\penalty0
+  167--195, 1992.
+
+\bibitem[Herbst and van Dishoeck(2009)]{herbst2009}
+Eric Herbst and Ewine~F. van Dishoeck.
+\newblock Complex organic interstellar molecules.
+\newblock \emph{Annual Review of Astronomy and Astrophysics}, 47:\penalty0
+  427--480, 2009.
+
+\bibitem[Cuppen et~al.(2017)Cuppen, Walsh, Lamberts, Semenov, Garrod, Penteado,
+  and Ioppolo]{cuppen2017}
+H.~M. Cuppen, C.~Walsh, T.~Lamberts, D.~Semenov, R.~T. Garrod, E.~M. Penteado,
+  and S.~Ioppolo.
+\newblock Grain surface models and data for astrochemistry.
+\newblock \emph{Space Science Reviews}, 212:\penalty0 1--58, 2017.
+\newblock \doi{10.1007/s11214-016-0319-3}.
+
+\bibitem[Collings et~al.(2004)Collings, Anderson, Chen, Dever, Viti, Williams,
+  and McCoustra]{collings2004}
+M.~P. Collings, M.~A. Anderson, R.~Chen, J.~W. Dever, S.~Viti, D.~A. Williams,
+  and M.~R.~S. McCoustra.
+\newblock A laboratory survey of the thermal desorption of astrophysically
+  relevant molecules.
+\newblock \emph{Monthly Notices of the Royal Astronomical Society},
+  354:\penalty0 1133, 2004.
+
+\bibitem[Pathria and Beale(2011)]{pathria2011}
+R.~K. Pathria and Paul~D. Beale.
+\newblock \emph{Statistical Mechanics}.
+\newblock Academic Press (Elsevier), Amsterdam, 3 edition, 2011.
+
+\bibitem[Kittel and Kroemer(1980)]{kittel1980}
+Charles Kittel and Herbert Kroemer.
+\newblock \emph{Thermal Physics}.
+\newblock W. H. Freeman, New York, 2 edition, 1980.
+
+\bibitem[Langmuir(1918)]{langmuir1918}
+Irving Langmuir.
+\newblock The adsorption of gases on plane surfaces of glass, mica and
+  platinum.
+\newblock \emph{Journal of the American Chemical Society}, 40:\penalty0
+  1361--1403, 1918.
+
+\bibitem[Touchette(2015)]{touchette2015}
+Hugo Touchette.
+\newblock Equivalence and nonequivalence of ensembles: Thermodynamic,
+  macrostate, and measure levels.
+\newblock \emph{Journal of Statistical Physics}, 159:\penalty0 987--1016, 2015.
+\newblock arXiv:1403.6608.
+
+\end{thebibliography}

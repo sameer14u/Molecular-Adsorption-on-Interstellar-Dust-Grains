@@ -1,0 +1,27 @@
+V1 & Model A: all $2^M$ occupation patterns counted vs.\ $\binom{M}{N}$ & $0$ & pass \\
+V2 & Model B: enumerated $\Omega(N,Q)$ vs.\ $\binom{M}{N}\binom{Q+gN-1}{Q}$ [$M=4,\ g=1,\ Q\leq 30$] & $0$ & pass \\
+V3a & Canonical $Z_N$: brute-force sum vs.\ $\binom{M}{N}e^{\beta N\varepsilon}z_v^{N}$ [$M=4,\ g=1$] & $1.2\times10^{-14}$ & pass \\
+V3b & Grand $\Xi=(1+\lambda)^M$ and $P(N)$: brute-force sum vs.\ closed form [$M=4,\ g=1$] & $3.1\times10^{-15}$ & pass \\
+V2 & Model B: enumerated $\Omega(N,Q)$ vs.\ $\binom{M}{N}\binom{Q+gN-1}{Q}$ [$M=3,\ g=2,\ Q\leq 14$] & $0$ & pass \\
+V3a & Canonical $Z_N$: brute-force sum vs.\ $\binom{M}{N}e^{\beta N\varepsilon}z_v^{N}$ [$M=3,\ g=2$] & $1.2\times10^{-14}$ & pass \\
+V3b & Grand $\Xi=(1+\lambda)^M$ and $P(N)$: brute-force sum vs.\ closed form [$M=3,\ g=2$] & $1.0\times10^{-15}$ & pass \\
+V2 & Model B: enumerated $\Omega(N,Q)$ vs.\ $\binom{M}{N}\binom{Q+gN-1}{Q}$ [$M=3,\ g=3,\ Q\leq 8$] & $0$ & pass \\
+V3a & Canonical $Z_N$: brute-force sum vs.\ $\binom{M}{N}e^{\beta N\varepsilon}z_v^{N}$ [$M=3,\ g=3$] & $2.8\times10^{-10}$ & pass \\
+V3b & Grand $\Xi=(1+\lambda)^M$ and $P(N)$: brute-force sum vs.\ closed form [$M=3,\ g=3$] & $2.8\times10^{-10}$ & pass \\
+V4a & Stirling: $1/k_BT=\partial S/\partial E|_N$, analytic vs.\ numerical derivative & $1.7\times10^{-8}$ & pass \\
+V4b & Stirling: $-\mu/k_BT=\partial S/\partial N|_E$, analytic vs.\ numerical derivative & $1.7\times10^{-9}$ & pass \\
+V5a & Canonical $\langle Q\rangle$ at backward-difference $T$ equals $QG/(G-1)$, $G=gN$ & $4.4\times10^{-16}$ & pass \\
+V5b & Canonical $\langle Q\rangle$ at forward-difference $T$ equals $G(Q+1)/(G-1)$ & $4.4\times10^{-16}$ & pass \\
+V5c & Model A: $\langle N\rangle_{\rm GC}=MN/(M+1)$ (backward), $M(N+1)/(M+1)$ (forward) & $2.2\times10^{-16}$ & pass \\
+V5d & Model B: $\langle N\rangle^{\rm back}_{\rm GC}<N<\langle N\rangle^{\rm fwd}_{\rm GC}$, $M=400$--$10^5$ (0 = holds) & $0$ & pass \\
+V6a & Model B: $\mathrm{Cov}(E,N)$, numerical Hessian of $\ln\Xi$ vs.\ closed form & $2.1\times10^{-7}$ & pass \\
+V6e & Model B: $\det\mathrm{Cov}=M^2\theta^2(1-\theta)\sigma_h^2$ (algebraic identity) & $2.6\times10^{-13}$ & pass \\
+V6b & Model B: $\mathrm{Var}(N)$ numerical vs.\ $M\theta(1-\theta)$ & $3.3\times10^{-8}$ & pass \\
+V6c & Model B: $\mathrm{Var}(E)$ numerical vs.\ closed form & $1.1\times10^{-7}$ & pass \\
+V6d & Model A: $\det\mathrm{Cov}(E,N)=0$ (relative to $\mathrm{Var}E\,\mathrm{Var}N$) & $0$ & pass \\
+V7a & Grand: normalisation, $\langle N\rangle$, $\mathrm{Var}\,N$ from exact $P(N)$ & $3.3\times10^{-11}$ & pass \\
+V7b & Canonical: $\langle Q\rangle$, $\mathrm{Var}\,Q$ from exact $P(Q)$ & $2.7\times10^{-15}$ & pass \\
+V8a & $S_{\rm can}-k_B\ln\Omega=\tfrac12\ln(2\pi\sigma_Q^2)$ at $M=10^6$ (deviation of prediction) & $9.4\times10^{-7}$ & pass \\
+V8b & $S_{\rm GC}-k_B\ln\Omega=\ln 2\pi+\tfrac12\ln\det\mathrm{Cov}$ at $M=10^6$ (deviation) & $1.3\times10^{-6}$ & pass \\
+V9a & Central matching: slope of $\ln|\langle Q\rangle/Q-1|$ vs.\ $\ln M$ is $-1$ (deviation) & $5.0\times10^{-8}$ & pass \\
+V9b & Central matching: slope of $\ln|\langle N\rangle/N-1|$ vs.\ $\ln M$ is $-1$ (deviation) & $2.5\times10^{-3}$ & pass \\
